@@ -336,7 +336,7 @@ h5{
     min-height: 250px;
 }
 .card2{
-    height: 800px;
+    height: 700px;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
@@ -351,13 +351,14 @@ h5{
     font-family: 'Quicksand';
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .desc2 ul li{
-    color: rgb(148, 112, 112);
+    color: rgb(170, 148, 148);
     font-size: 15px;
     line-height: 17px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 /* FOOTER STARTS HERE*/
