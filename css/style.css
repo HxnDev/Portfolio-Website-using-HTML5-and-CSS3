@@ -267,7 +267,18 @@ h5{
     min-height: 200px;
 }
 .card1{
-
+    height: 500px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1 h5{
+    
 }
 
 /* FOOTER STARTS HERE*/
