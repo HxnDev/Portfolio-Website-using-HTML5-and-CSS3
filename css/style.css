@@ -284,8 +284,9 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
 }
-.desc{
+.card1 .desc{
     color: white;
+    font-size: 500px;
 }
 
 /* FOOTER STARTS HERE*/
