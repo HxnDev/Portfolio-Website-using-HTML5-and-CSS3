@@ -336,7 +336,7 @@ h5{
     min-height: 250px;
 }
 .card2{
-    height: 200px;
+    height: 400px;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
@@ -350,7 +350,7 @@ h5{
     color: white;
     font-family: 'Quicksand';
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
     margin-bottom: 15px;
 }
 
