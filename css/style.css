@@ -260,6 +260,15 @@ h5{
     margin: 30px auto;
     text-align: center;
 }
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+.card1{
+
+}
 
 /* FOOTER STARTS HERE*/
 footer{
