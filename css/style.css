@@ -183,14 +183,50 @@ button:hover{
 
 /* PROJECTS STARTS HERE */
 .projects{
-    background-color: #87c5f8;
+    background-color: #000000;
     width: 100%;
-    padding: 100px 0px;
+    padding: 30px 0px;
 }
 .title h2{
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Licorice';
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 500px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(255, 81, 0);
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card-info{
+    color: #87c5f8;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
