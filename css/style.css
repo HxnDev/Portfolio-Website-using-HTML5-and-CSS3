@@ -123,25 +123,25 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #000000;
+    background-color: #3d3964;
 }
 .about img{
     height: auto;
     width: 430px;
 }
 .about-text{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 550px;
 }
 .about-text h2{
     font-family: 'Licorice';
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 .about-text h5{
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -149,7 +149,7 @@ h4{
 }
 .about-text p{
     font-family: 'Quicksand';
-    color: aqua;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
