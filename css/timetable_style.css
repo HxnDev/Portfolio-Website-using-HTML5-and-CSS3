@@ -16,18 +16,32 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #f5826e;
 }
 
 .timetable{
     border-collapse: collapse;
     width: 25em;
+    border-color: transparent;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 10px 30px 50px rgba(0,0,0,.15);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
     margin: 25px auto;
 }
-.timetable thead tr{
-    
-}
 
+.timetable thead tr{
+    border-bottom: 1px dashed grey;
+}
+.timetable thead tr td{
+    text-align: center;
+    margin: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+}
+.timetable tbody tr td{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: blue;
+    padding: 8px;
+}
