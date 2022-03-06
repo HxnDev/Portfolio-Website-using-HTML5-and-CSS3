@@ -81,7 +81,7 @@ body{
 }
 .col{
     flex-basis: 50%;
-    min-width: 0px;
+    min-width: 250px;
 }
 .feature-img{
     width: 83%;
@@ -97,19 +97,28 @@ body{
     align-items: center;
     border-radius: 6px;
     overflow: hidden;
-    width: 100%
+    width: 85%
 }
 .small-img{
     position: relative;
 }
 .small-img img{
-    width: 50%;
-    height:50%
+    width: 150px;
 }
 .small-img-row p{
     font-size: 16px;
     font-family:'Quicksand';
-    text-align: center;
-    justify-content: center;
-    margin-left: 5px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px;
 }
