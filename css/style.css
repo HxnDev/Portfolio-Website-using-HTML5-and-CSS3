@@ -279,6 +279,8 @@ h5{
 }
 .card1 h5{
     color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
     font-size: 23px;
     margin-bottom: 15px;
 }
