@@ -353,6 +353,12 @@ h5{
     font-size: 25px;
     margin-bottom: 15px;
 }
+.desc2 ul li{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
 
 /* FOOTER STARTS HERE*/
 footer{
