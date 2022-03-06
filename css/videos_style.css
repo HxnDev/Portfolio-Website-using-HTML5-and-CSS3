@@ -1,0 +1,115 @@
+/* Imported some fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Secular+One#standard-styles");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Licorice");
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* General Property to be applied to every page*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+}
+
+
+/* Navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* Customized fonts for word "Portfolio" */
+.logo{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+span{
+    color:rgb(255, 81, 0)
+}
+
+/* Navigation Style */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/* Linked Pages */
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+/* On Hover Effect*/
+nav ul li a:hover{
+    color: rgb(255, 81, 0);
+    transition: .4s;
+}
+
+body{
+    background: #2e8d86;
+}
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.container h1{
+    padding: 60px 0;
+    color: black;
+    font-size: 44px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 0px;
+}
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.small-img-row{
+    display: flex;
+    background: #ff9e9e;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%
+}
+.small-img{
+    position: relative;
+}
+.small-img img{
+    width: 50%;
+    height:50%
+}
+.small-img-row p{
+    font-size: 16px;
+    font-family:'Quicksand';
+    text-align: center;
+    justify-content: center;
+    margin-left: 5px;
+}
