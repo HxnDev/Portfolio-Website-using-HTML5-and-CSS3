@@ -121,5 +121,11 @@ h4{
 
 /* ABOUT PAGE STARTS HERE */
 .about{
-    
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #0f0000;
+}
+.about img{
+    height: auto;
+    width: 430px;
 }
