@@ -17,6 +17,7 @@
 
 body {
     background-color: #f5826e;
+    justify-content: center;
 }
 
 .timetable{
@@ -28,23 +29,26 @@ body {
     box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
     margin: 25px auto;
     table-layout: fixed;
+    justify-content: center;
 }
 
 .timetable thead tr{
-    border-bottom: 1px dashed grey;
+    border-bottom: 1px black;
 }
 .timetable thead tr td{
     text-align: center;
     margin: 50px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     letter-spacing: 1px;
-    color: grey;
+    color: rgb(0, 0, 0);
     overflow: hidden;
 }
 .timetable tbody tr td{
     font-size: 18px;
     letter-spacing: 1px;
-    color: blue;
+    color: rgb(0, 0, 0);
+    text-align: center;
     padding: 8px;
     overflow: hidden;
 }
