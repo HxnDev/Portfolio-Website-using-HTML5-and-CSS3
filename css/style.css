@@ -180,3 +180,17 @@ button:hover{
     cursor: pointer;
     color: rgb(0, 0, 0);
 }
+
+/* PROJECTS STARTS HERE */
+.projects{
+    background-color: #87c5f8;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-family: 'Licorice';
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+}
