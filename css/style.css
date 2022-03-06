@@ -123,15 +123,15 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #3d3964;
+    background-color: #87c5f8;
 }
 .about img{
     height: auto;
-    width: 430px;
+    width: 500px;
 }
 .about-text{
     color: rgb(0, 0, 0);
-    width: 550px;
+    width: 430px;
 }
 .about-text h2{
     font-family: 'Licorice';
@@ -173,4 +173,10 @@ button{
     padding: 13px 30px;
     border-radius: 30px;
     transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 81, 0);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
