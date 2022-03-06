@@ -9,27 +9,29 @@
 
     <body>
         <!-- Drawing Table -->
-        <table border="1">
-            <!-- Row 1  -->
-            <tr>
-                <!-- 7 columns -->
-                <td>Days</td>
-                <td>08:30 - 09:50</td>
-                <td>10:00 - 11:20</td>
-                <td>11:30 - 12:50</td>
-                <td>01:00 - 02:20</td>
-                <td>02:30 - 03:50</td>
-                <td>03:55 - 05:15</td>
-            </tr>
-
-            <!-- Row 2  -->
+        <table class="timetable" border="1">
+            <thead>
+                <!-- Row 1  -->
+                <tr>
+                    <!-- 7 columns -->
+                    <td>Days</td>
+                    <td>08:30 - 09:50</td>
+                    <td>10:00 - 11:20</td>
+                    <td>11:30 - 12:50</td>
+                    <td>01:00 - 02:20</td>
+                    <td>02:30 - 03:50</td>
+                    <td>03:55 - 05:15</td>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <!-- Row 2  -->
             <tr>
                 <!-- 7 columns -->
                 <td>Monday</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
+                <td rowspan="4">-</td>
+                <td colspan="2">-</td>
+                <td rowspan="4">-</td>
                 <td>DBA (C-404)</td>
                 <td>-</td>
             </tr>
@@ -38,10 +40,8 @@
             <tr>
                 <!-- 7 columns -->
                 <td>Tuesday</td>
-                <td>-</td>
                 <td>Web (C-305)</td>
                 <td>Numericals (A-310)</td>
-                <td>-</td>
                 <td>Ethical (C-309)</td>
                 <td>Entre (C-310)</td>
                 
@@ -51,10 +51,7 @@
             <tr>
                 <!-- 7 columns -->
                 <td>Wednesday</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
+                <td colspan="2">-</td>
                 <td>DBA (Maragla 1)</td>
                 <td>-</td>
             </tr>
@@ -63,13 +60,13 @@
             <tr>
                 <!-- 7 columns -->
                 <td>Thursday</td>
-                <td>-</td>
                 <td>Web (C-307)</td>
                 <td>Numericals (C-407)</td>
-                <td>-</td>
                 <td>Ethical (C-305)</td>
                 <td>Entre (C-401)</td>
             </tr>
+            </tbody>
+            
         </table>
     </body>
        
