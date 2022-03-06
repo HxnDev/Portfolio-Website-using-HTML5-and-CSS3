@@ -277,7 +277,11 @@ h5{
     overflow: hidden;
     text-align: center;
 }
-
+.card1 h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
 
 /* FOOTER STARTS HERE*/
 footer{
