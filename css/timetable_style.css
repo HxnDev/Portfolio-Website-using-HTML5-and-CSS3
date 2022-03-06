@@ -27,6 +27,7 @@ body {
     border-radius: 15px;
     box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
     margin: 25px auto;
+    table-layout: fixed;
 }
 
 .timetable thead tr{
@@ -38,10 +39,12 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     color: grey;
+    overflow: hidden;
 }
 .timetable tbody tr td{
     font-size: 18px;
     letter-spacing: 1px;
     color: blue;
     padding: 8px;
+    overflow: hidden;
 }
