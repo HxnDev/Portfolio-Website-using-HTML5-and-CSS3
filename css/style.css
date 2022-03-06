@@ -114,5 +114,5 @@ h4{
     border-radius: 30px;
     background-color: rgb(255, 81, 0);
     color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    box-shadow: 0px 0px 5px rgb(199, 0, 0), 0px 0px 15px #03ff74;
 }
