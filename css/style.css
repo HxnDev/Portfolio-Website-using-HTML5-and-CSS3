@@ -284,8 +284,13 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
 }
-.desc{
-    color: white;
+.desc h4{
+    color: rgb(179, 115, 118);
+    font-family: 'Kalam';
+    font-size: 10px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
 }
 
 /* FOOTER STARTS HERE*/
