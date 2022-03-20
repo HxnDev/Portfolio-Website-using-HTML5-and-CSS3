@@ -5,3 +5,4 @@ In this project, we will be creating a responsive Portfolio website using only H
 - index.html (containing my portfolio)
 - mytimetable.html (containing my semester's timetable)
 
+(To be edited)
